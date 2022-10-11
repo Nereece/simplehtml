@@ -5,17 +5,70 @@
     <meta charset="UTF-8" />
     <title>Harry Potter Fan Page </title>
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+    <style>
+        body{
+            background-image:url(images/Harry-Potter-Wallpaper.jpg);
+        }
+        img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+        }
+        h1,h4{
+            width: 600px;
+        }
+        h1{
+            font-size: 50px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            color: rgb(155, 0, 0);
+
+        }
+        h4{
+            font-size: 20px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        p{
+            width: 200px;
+            font-size: 14px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: black;
+        }
+        #gallery-container{
+          display: inline-block;
+          font-size: 0;
+        }
+        .image-container{
+            display: inline-block;
+            vertical-align: top;
+        }
+        #special-word{
+            color: rgb(155, 0, 0);
+        }
+    </style>
 </head>
 
 <body>
     <h1> Hogwarts School of Witch Caft and Wizardry </h1>
-    <div>
-        <div> <img src="images/Gryffindor 1.webp" alt="Second Best House" /> </div>
-        <div> <img src="images/Hufflepuff 1.webp" alt="Third Best House" /> </div>
-        <div> <img src="images/Ravenclaw 1.webp" alt="The Best House" /> </div>
-        <div> <img src="images/Slytherin 1.webp" alt="Worst house, sorry not sorry" /> </div>
+    <h4> "Don't let muggles get you down" <span id="special-word"> Ron Weasley</span></h4>
+    <div id="gallery-container">
+        <div class="image-container">
+            <img src="images/Gryffindor 1.webp" alt="Second Best House" />
+            <p>Gryffindor- This is the second best house, favourited by Dumbledore only because <br> Harry was sorted into it.</p>
+        </div>
+        <div class="image-container">
+            <img src="images/Hufflepuff 1.webp" alt="Third Best House" />
+            <p>Hufflepuff- This is the third best house, it's cool but not spoken about enough.</p>
+        </div>
+        <div class="image-container">
+            <img src="images/Ravenclaw 1.webp" alt="The Best House" />
+            <p>Ravenclaw- This is the best house, becuase I was housed into it.</p>
+        </div>
+        <div class="image-container">
+            <img src="images/Slytherin 1.webp" alt="Worst house, sorry not sorry" />
+            <p>Slytherin- This is the worst house, because its got a bad rep. Sorry not sorry :(</p>
+        </div>
     </div>
-    <p> I Solemnly Swear That I Am Up to No Good </p>
+
 
 </body>
 
